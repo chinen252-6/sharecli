@@ -1,0 +1,30 @@
+
+    dl{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    dt,dd{
+        box-sizing: border-box;
+    }
+    dt{
+        display: flex;
+        align-items: center;
+        width: 30%;
+        padding: 29px;
+        border-bottom: 1px solid #AAAAAA;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    dd{
+        display: flex;
+        align-items: center;
+        width: 70%;
+        margin-left: 0;
+        padding: 20px;
+        border-bottom: #AAAAAA 1px solid;
+    }
+
+    .section__contents{
+        margin-bottom: 100px;
+    }
