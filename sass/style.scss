@@ -1,0 +1,536 @@
+@use "color";
+@use "breakpoints";
+
+body{
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:color.$text-cl;
+
+    
+}
+
+
+// 共通
+.light{
+    color: color.$text-light;
+}
+
+.section__head{
+    padding-top: 102px;
+    margin-bottom: 29px;
+    font-size: 36px;
+    font-family: "Noto Serif JP" ,sans-serif;
+    font-optical-sizing:  auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.section__under-line{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 59px;
+}
+
+.section__contents-narrow{
+    width:min(80%,900px);
+    margin-left:auto;
+    margin-right:auto;
+}
+.section__contents-width{
+    width:min(85%,1000px);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+// header
+header{
+    position:fixed;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    width:100%;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1);
+    background-color: color.$white;
+}
+.header {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1200px;
+    z-index:999;
+    display: flex;
+    justify-content: space-between;
+   
+
+    &__title{
+        
+        &__logo{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            gap:20px;
+            
+        }
+    }
+
+    &__nav{
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+
+        &__list{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap:30px; 
+        }
+    }
+}
+
+.nav__list__item{
+               
+
+                &__link{
+                    text-decoration: none;
+                    
+                    &:hover{
+                        color:color.$text-hover !important;
+                    }
+                }
+               
+            }
+
+.header-contact{
+    background-color: color.$footer-cl;
+    color:color.$white;
+    height: 145px;
+    display: flex; 
+    align-items: center; 
+    padding: 0 30px; 
+
+    &a{
+        padding: 20px;
+        align-items: center;
+        display: block;
+    }
+}
+
+main{
+    margin-top: 138px;
+}
+
+// fv
+.fv{
+    background-image: url('../img/fv-on.png');
+    background-size: cover;
+    height: 650px;
+    
+
+    &__contents{
+        max-width: 1000px;
+        width:95%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Noto Serif JP" ,sans-serif;
+        font-optical-sizing:  auto;
+        font-weight: 500;
+        font-style: normal;
+        padding-top: 81px;
+        
+        &__heading{
+            font-size: 63px;
+            padding-bottom: 78px;
+            
+        }
+
+        &__sub{
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            span {
+                background-color: color.$white;
+
+            }
+            span + span {
+                margin-top: 0.5em;
+            }
+           
+        }
+    }
+}
+
+// service
+#service{
+    scroll-margin-top: 60px; 
+}
+.section__flex{
+    display: flex;
+    gap: 55px;
+}
+.section__contents__content__text{
+    line-height:2;
+}
+.section__contents__content__text +
+.section__contents__content__text{
+    margin-top: 40px;
+}
+
+// salon
+.salon{
+    background-color: color.$bg-cl;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+.salon__text{
+    font-size: 40px;
+    font-family: "Noto Serif JP" ,sans-serif;
+    font-optical-sizing:  auto;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+
+// features
+#features{
+    scroll-margin-top: 60px; 
+}
+.features{
+
+    &__lists{
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+        padding-bottom: 39px;
+    }
+
+     &__text{
+            text-align: center;
+            font-size: 13px;
+        }
+}
+
+// reason
+.reason__card +
+.reason__card{
+    margin-top: 82px;
+}
+.reason{
+    &__card{
+        &__title{
+            padding-bottom: 30px;
+            margin-bottom: 36px;
+            display: flex;
+            align-items: center;
+            gap: 48px;
+            border-bottom: 2px solid;
+            font-family: "Noto Serif JP" ,sans-serif;
+            font-optical-sizing:  auto;
+            font-weight: 500;
+
+            
+            &__number{
+                font-size: 80px;
+                color: color.$text-light;
+            }
+            &__text{
+                font-size: 28px;
+                line-height: 1.6;
+            
+            }
+        }
+        &__text{
+            line-height: 2;
+        }
+    }
+
+    &__groups{
+        margin-top: 108px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+
+    &__examples{
+        margin-bottom: 44px;
+
+        &__top{
+            font-size: 20px;
+            color:color.$white;
+            text-align: center;
+            background-color: color.$text-cl;
+            padding-top: 14px;
+            padding-bottom: 14px;
+        }
+    }
+    &__example{
+        margin-top: 44px;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 110px;
+        justify-content: space-between;
+    }
+
+}
+.example__card{
+    &__title{
+        font-size: 30px;
+        text-align: center;
+        font-family: "Noto Serif JP" ,sans-serif;
+        font-optical-sizing:  auto;
+        font-weight: 500;
+        margin-bottom: 30px;
+        
+    }
+
+    &__text{
+        margin-top: 30px;
+        line-height: 2;
+    }
+}
+
+
+// flow
+#flow{
+    scroll-margin-top: 60px; 
+}
+.section__contents-flow{
+    width:min(95%,1150px);
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 100px;
+}
+.flow{
+    background-color: color.$bg-cl;
+    margin-top: 100px;
+
+}
+
+
+
+// plan
+#plan{
+    scroll-margin-top: 60px; 
+}
+.plan{
+
+    &__contents__message{
+        margin-bottom: 50px;
+        text-align: center;
+
+    }
+
+
+    &__img-top{
+        margin-bottom: 50px;
+    }
+}
+
+
+
+// qa
+#qa{
+    scroll-margin-top: 60px;
+}
+.qa{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    background-color: color.$bg-cl;
+
+    &__question{
+        background-color: color.$white;
+        line-height: 2;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        
+
+        &__text{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+        }
+        &__q{
+            color: color.$footer-cl;
+            padding-right: 10px;
+        }
+    }
+
+    &__answer{
+        line-height: 2;
+        padding-left: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        
+
+        &__a{
+            color:color.$text-hover;
+            padding-right: 10px;
+        }
+    }
+}
+
+// contact-form
+#contact-form{
+    scroll-margin-top: 60px;
+}
+.contact-form{
+    margin-bottom: 150px;
+}
+.form-group{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+
+    input{
+        background-color:#f0f0f0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        border: none;
+        
+        
+        &::placeholder{
+            color: #b0b0b0;
+        }
+    }
+    label{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    textarea{
+        background-color:#f0f0f0;
+        border:none;
+        padding-top: 20px;
+        padding-left: 20px;
+        height:150px;
+    }
+}
+.form-group + .form-group{
+    border-bottom: 2px #f0f0f0 solid;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+.form-group-name{
+    border-bottom: 2px #f0f0f0 solid;
+    padding-bottom: 31px;
+}
+.form-group-contact{
+    border-bottom: none !important;
+    label{
+        height:150px;
+        line-height: 150px;
+    }
+}
+.checkbox-group{
+    display: grid;
+}
+.checkbox-group input[type="checkbox"] {
+    appearance: none; 
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    vertical-align: middle;
+}
+
+.checkbox-group input[type="checkbox"]:checked {
+  background-color: color.$white; 
+  border:2px #f0f0f0 solid;
+}
+
+.checkbox-group input[type="checkbox"]:checked::after {
+  content: "✓";
+  color: black; 
+  font-size: 16px;
+  position: absolute;
+  left: 3px;
+  top: -2px;
+}
+
+.privacy{
+    margin-top: 61px;
+    margin-bottom: 64px;
+    line-height: 2;
+
+    &__title{
+        font-weight: 600;
+    }
+}
+.form-submit{
+    text-align: center;
+    button{
+    color:color.$white;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: color.$footer-cl;
+    border-radius: 35px;
+    border: none;
+    width:450px;
+
+    &:hover{
+        cursor: pointer; 
+        opacity: 0.7;
+
+    }
+    }
+
+}
+
+
+
+// footer
+.footer{
+    background-color: color.$footer-cl;
+
+    &__contents{
+        padding-top: 50px;
+        margin-left:auto;
+        margin-right:auto;
+        max-width:1200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        padding-bottom: 100px;
+        &__text{
+            font-size: 22px;
+            line-height: 2;
+            color:color.$white;
+        }
+    }
+    &__nav{
+        &__items{
+            display: flex;
+            gap: 35px;
+            color:color.$white;
+        }
+        &__item{
+            &__link:hover{
+                 color:color.$text-hover;
+            }
+        }
+    }
+}
+
+.footer__copy{
+    background-color: color.$copy !important;
+    width:100%;
+    color:color.$white;
+    text-align: center;
+    &__text{
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    }
+    

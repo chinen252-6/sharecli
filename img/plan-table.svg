@@ -1,0 +1,206 @@
+<svg id="初期メニュー" xmlns="http://www.w3.org/2000/svg" width="1000" height="515" viewBox="0 0 1000 515">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #eee;
+      }
+
+      .cls-2 {
+        font-size: 17px;
+      }
+
+      .cls-10, .cls-2, .cls-6 {
+        fill: #555;
+      }
+
+      .cls-11, .cls-13, .cls-2, .cls-6, .cls-8 {
+        font-family: HiraKakuProN-W6, "Hiragino Kaku Gothic ProN";
+      }
+
+      .cls-3 {
+        font-size: 9px;
+      }
+
+      .cls-13, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        stroke: #555;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        font-size: 22px;
+      }
+
+      .cls-7 {
+        fill: #f4fbfc;
+      }
+
+      .cls-13, .cls-8 {
+        font-size: 20px;
+      }
+
+      .cls-14, .cls-8 {
+        fill: #02acbb;
+      }
+
+      .cls-9 {
+        font-size: 40px;
+        font-family: Montserrat;
+      }
+
+      .cls-10 {
+        font-weight: 600;
+      }
+
+      .cls-11 {
+        font-size: 28px;
+      }
+
+      .cls-12 {
+        fill: #35cbd8;
+      }
+    </style>
+  </defs>
+  <g id="項目まとめ">
+    <g id="項目">
+      <g id="_1" data-name="1">
+        <rect id="長方形_2_のコピー_3" data-name="長方形 2 のコピー 3" class="cls-1" y="130" width="250" height="55"/>
+        <text id="利益保証_2" data-name="利益保証※2" class="cls-2" x="19.132" y="164.164">利益保証<tspan class="cls-3" dy="-5.4">※2</tspan></text>
+      </g>
+      <g id="_2" data-name="2">
+        <rect id="長方形_2_のコピー_3-2" data-name="長方形 2 のコピー 3" class="cls-4" y="185" width="250" height="55"/>
+        <text id="専属サポート" class="cls-2" x="19.132" y="219.169">専属サポート</text>
+      </g>
+      <g id="_3" data-name="3">
+        <rect id="長方形_2_のコピー_3-3" data-name="長方形 2 のコピー 3" class="cls-1" y="240" width="250" height="55"/>
+        <text id="開始前オーナー研修" class="cls-2" x="19.132" y="274.165">開始前オーナー研修</text>
+      </g>
+      <g id="_4" data-name="4">
+        <rect id="長方形_2_のコピー_3-4" data-name="長方形 2 のコピー 3" class="cls-4" y="295" width="250" height="55"/>
+        <text id="店舗スタッフ研修" class="cls-2" x="19.132" y="329.161">店舗スタッフ研修</text>
+      </g>
+      <g id="_5" data-name="5">
+        <rect id="長方形_2_のコピー_3-5" data-name="長方形 2 のコピー 3" class="cls-1" y="350" width="250" height="55"/>
+        <text id="初期構築コンサルティング" class="cls-2" x="19.132" y="384.166">初期構築コンサルティング</text>
+      </g>
+      <g id="_6" data-name="6">
+        <rect id="長方形_2_のコピー_3-6" data-name="長方形 2 のコピー 3" class="cls-4" y="405" width="250" height="55"/>
+        <text id="運営開始後サポート" class="cls-2" x="19.132" y="439.162">運営開始後サポート</text>
+      </g>
+      <g id="_7" data-name="7">
+        <rect id="長方形_2_のコピー_3-7" data-name="長方形 2 のコピー 3" class="cls-1" y="460" width="250" height="55"/>
+        <text id="運営開始後改善課題分析" class="cls-2" x="19.132" y="494.168">運営開始後改善課題分析</text>
+      </g>
+    </g>
+    <g id="項目_のコピー" data-name="項目 のコピー">
+      <g id="_1-2" data-name="1">
+        <rect id="長方形_2_のコピー_3-8" data-name="長方形 2 のコピー 3" class="cls-1" x="279" y="130" width="230" height="55"/>
+        <path id="シェイプ_2" data-name="シェイプ 2" class="cls-5" d="M848,5966h13" transform="translate(-460 -5808)"/>
+      </g>
+      <g id="_2-2" data-name="2">
+        <rect id="長方形_2_のコピー_3-9" data-name="長方形 2 のコピー 3" class="cls-4" x="279" y="185" width="230" height="55"/>
+        <path id="シェイプ_2-2" data-name="シェイプ 2" class="cls-5" d="M848,6021h13" transform="translate(-460 -5808)"/>
+      </g>
+      <g id="_3-2" data-name="3">
+        <rect id="長方形_2_のコピー_3-10" data-name="長方形 2 のコピー 3" class="cls-1" x="279" y="240" width="230" height="55"/>
+        <text id="資料_ビデオ" data-name="資料＋ビデオ" class="cls-2" x="342.132" y="274.165">資料＋ビデオ</text>
+      </g>
+      <g id="_4-2" data-name="4">
+        <rect id="長方形_2_のコピー_3-11" data-name="長方形 2 のコピー 3" class="cls-4" x="279" y="295" width="230" height="55"/>
+        <text id="資料_ビデオ-2" data-name="資料＋ビデオ" class="cls-2" x="342.132" y="329.161">資料＋ビデオ</text>
+      </g>
+      <g id="_5-2" data-name="5">
+        <rect id="長方形_2_のコピー_3-12" data-name="長方形 2 のコピー 3" class="cls-1" x="279" y="350" width="230" height="55"/>
+        <path id="シェイプ_2-3" data-name="シェイプ 2" class="cls-5" d="M848,6186h13" transform="translate(-460 -5808)"/>
+      </g>
+      <g id="_6-2" data-name="6">
+        <rect id="長方形_2_のコピー_3-13" data-name="長方形 2 のコピー 3" class="cls-4" x="279" y="405" width="230" height="55"/>
+        <path id="シェイプ_2-4" data-name="シェイプ 2" class="cls-5" d="M848,6241h13" transform="translate(-460 -5808)"/>
+      </g>
+      <g id="_7-2" data-name="7">
+        <rect id="長方形_2_のコピー_3-14" data-name="長方形 2 のコピー 3" class="cls-1" x="279" y="460" width="230" height="55"/>
+        <path id="シェイプ_2-5" data-name="シェイプ 2" class="cls-5" d="M848,6296h13" transform="translate(-460 -5808)"/>
+      </g>
+    </g>
+    <g id="項目_のコピー_2" data-name="項目 のコピー 2">
+      <g id="_1-3" data-name="1">
+        <rect id="長方形_2_のコピー_3-15" data-name="長方形 2 のコピー 3" class="cls-1" x="525" y="130" width="230" height="55"/>
+        <text id="〇" class="cls-6" x="629.132" y="166.164">〇</text>
+      </g>
+      <g id="_2-3" data-name="2">
+        <rect id="長方形_2_のコピー_3-16" data-name="長方形 2 のコピー 3" class="cls-4" x="525" y="185" width="230" height="55"/>
+        <text id="メール" class="cls-2" x="614.132" y="219.169">メール</text>
+      </g>
+      <g id="_3-3" data-name="3">
+        <rect id="長方形_2_のコピー_3-17" data-name="長方形 2 のコピー 3" class="cls-1" x="525" y="240" width="230" height="55"/>
+        <text id="資料_ビデオ-3" data-name="資料＋ビデオ" class="cls-2" x="588.132" y="274.165">資料＋ビデオ</text>
+      </g>
+      <g id="_4-3" data-name="4">
+        <rect id="長方形_2_のコピー_3-18" data-name="長方形 2 のコピー 3" class="cls-4" x="525" y="295" width="230" height="55"/>
+        <text id="_2回_各1時間_" data-name="2回(各1時間）" class="cls-2" x="588.132" y="329.161">2回(各1時間）</text>
+      </g>
+      <g id="_5-3" data-name="5">
+        <rect id="長方形_2_のコピー_3-19" data-name="長方形 2 のコピー 3" class="cls-1" x="525" y="350" width="230" height="55"/>
+        <text id="_1回" data-name="1回" class="cls-2" x="625.132" y="384.166">1回</text>
+      </g>
+      <g id="_6-3" data-name="6">
+        <rect id="長方形_2_のコピー_3-20" data-name="長方形 2 のコピー 3" class="cls-4" x="525" y="405" width="230" height="55"/>
+        <text id="メール-2" data-name="メール" class="cls-2" x="614.132" y="439.162">メール</text>
+      </g>
+      <g id="_7-3" data-name="7">
+        <rect id="長方形_2_のコピー_3-21" data-name="長方形 2 のコピー 3" class="cls-1" x="525" y="460" width="230" height="55"/>
+        <path id="シェイプ_2-6" data-name="シェイプ 2" class="cls-5" d="M1094,6296h13" transform="translate(-460 -5808)"/>
+      </g>
+    </g>
+    <g id="項目_のコピー_3" data-name="項目 のコピー 3">
+      <g id="_1-4" data-name="1">
+        <rect id="長方形_2_のコピー_3-22" data-name="長方形 2 のコピー 3" class="cls-1" x="770" y="130" width="230" height="55"/>
+        <text id="〇-2" data-name="〇" class="cls-6" x="875.132" y="165.164">〇</text>
+      </g>
+      <g id="_2-4" data-name="2">
+        <rect id="長方形_2_のコピー_3-23" data-name="長方形 2 のコピー 3" class="cls-4" x="770" y="185" width="230" height="55"/>
+        <text id="メール_電話_TV会議" data-name="メール・電話・TV会議" class="cls-2" x="797.132" y="219.169">メール・電話・TV会議</text>
+      </g>
+      <g id="_3-4" data-name="3">
+        <rect id="長方形_2_のコピー_3-24" data-name="長方形 2 のコピー 3" class="cls-1" x="770" y="240" width="230" height="55"/>
+        <text id="無制限" class="cls-2" x="858.132" y="274.165">無制限</text>
+      </g>
+      <g id="_4-4" data-name="4">
+        <rect id="長方形_2_のコピー_3-25" data-name="長方形 2 のコピー 3" class="cls-4" x="770" y="295" width="230" height="55"/>
+        <text id="無制限-2" data-name="無制限" class="cls-2" x="858.132" y="329.161">無制限</text>
+      </g>
+      <g id="_5-4" data-name="5">
+        <rect id="長方形_2_のコピー_3-26" data-name="長方形 2 のコピー 3" class="cls-1" x="770" y="350" width="230" height="55"/>
+        <text id="無制限-3" data-name="無制限" class="cls-2" x="858.132" y="384.166">無制限</text>
+      </g>
+      <g id="_6-4" data-name="6">
+        <rect id="長方形_2_のコピー_3-27" data-name="長方形 2 のコピー 3" class="cls-4" x="770" y="405" width="230" height="55"/>
+        <text id="メール_電話_TV会議-2" data-name="メール・電話・TV会議" class="cls-2" x="797.132" y="439.162">メール・電話・TV会議</text>
+      </g>
+      <g id="_7-4" data-name="7">
+        <rect id="長方形_2_のコピー_3-28" data-name="長方形 2 のコピー 3" class="cls-1" x="770" y="460" width="230" height="55"/>
+        <text id="〇-3" data-name="〇" class="cls-6" x="875.132" y="494.168">〇</text>
+      </g>
+    </g>
+  </g>
+  <g id="mini">
+    <rect id="長方形_2_のコピー_3-29" data-name="長方形 2 のコピー 3" class="cls-7" x="279" width="230" height="45" rx="10" ry="10"/>
+    <text id="ミニプラン" class="cls-8" x="343.528" y="30.496">ミニプラン</text>
+    <text id="_20万円" data-name="20万円" class="cls-9" x="334.529" y="97.493"><tspan class="cls-10">20</tspan><tspan class="cls-11">万円</tspan></text>
+  </g>
+  <g id="standard">
+    <rect id="長方形_2_のコピー_3-30" data-name="長方形 2 のコピー 3" class="cls-12" x="525" width="230" height="45" rx="10" ry="10"/>
+    <text id="スタンダードプラン" class="cls-13" x="549.528" y="30.496">スタンダードプラン</text>
+    <text id="_70万円" data-name="70万円" class="cls-9" x="580.529" y="97.493"><tspan class="cls-10">70</tspan><tspan class="cls-11">万円</tspan></text>
+  </g>
+  <g id="pre">
+    <rect id="長方形_2_のコピー_3-31" data-name="長方形 2 のコピー 3" class="cls-14" x="770" width="230" height="45" rx="10" ry="10"/>
+    <text id="プレミアムプラン" class="cls-13" x="805.528" y="30.496">プレミアムプラン</text>
+    <text id="_110万円" data-name="110万円" class="cls-9" x="825.528" y="97.493"><tspan class="cls-10">110</tspan><tspan class="cls-11">万円</tspan></text>
+  </g>
+  <text id="初期費用_1" data-name="初期費用※1" class="cls-2" x="19.132" y="100.167">初期費用<tspan class="cls-3" dy="-5.4">※1</tspan></text>
+</svg>

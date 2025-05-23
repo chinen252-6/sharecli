@@ -1,0 +1,61 @@
+<svg id="共通料金" xmlns="http://www.w3.org/2000/svg" width="1001" height="102" viewBox="0 0 1001 102">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-8 {
+        stroke: #02acbb;
+      }
+
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #02acbb;
+      }
+
+      .cls-3 {
+        font-size: 20px;
+      }
+
+      .cls-3, .cls-6, .cls-7 {
+        font-family: HiraKakuProN-W6, "Hiragino Kaku Gothic ProN";
+      }
+
+      .cls-4 {
+        font-size: 40px;
+        font-family: Montserrat;
+      }
+
+      .cls-5 {
+        font-weight: 600;
+      }
+
+      .cls-6 {
+        font-size: 28px;
+      }
+
+      .cls-7 {
+        font-size: 17px;
+        fill: #555;
+      }
+
+      .cls-8 {
+        fill: #f0f0f0;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="長方形_2_のコピー_16" data-name="長方形 2 のコピー 16" class="cls-1" x="250" y="1" width="750" height="100"/>
+  <rect id="長方形_2_のコピー_6" data-name="長方形 2 のコピー 6" class="cls-2" y="1" width="250" height="100"/>
+  <text id="プラン共通の料金" class="cls-3" x="40.529" y="58.494">プラン共通の料金</text>
+  <text id="_80万円" data-name="80万円" class="cls-4" x="380.528" y="77.496"><tspan class="cls-5">80</tspan><tspan class="cls-6">万円</tspan></text>
+  <text id="_2万円" data-name="2万円" class="cls-4" x="770.528" y="77.496"><tspan class="cls-5">2</tspan><tspan class="cls-6">万円</tspan></text>
+  <text id="加盟金" class="cls-7" x="411.133" y="37.165">加盟金</text>
+  <text id="月額サービス利用費" class="cls-7" x="733.132" y="38.165">月額サービス利用費</text>
+  <path id="シェイプ_4" data-name="シェイプ 4" class="cls-8" d="M1086,5675v67" transform="translate(-460 -5657)"/>
+</svg>
