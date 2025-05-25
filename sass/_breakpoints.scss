@@ -1,12 +1,13 @@
 // ブレイクポイントのマップ定義
 $breakpoints: (
-  'sp': 'screen and (max-width: 767px)',
-  'tab': 'screen and (min-width: 768px) and (max-width: 1024px)',
-  'pc': 'screen and (min-width: 768px)'
+  'tab': 'screen and (max-width: 989px)',
+  'pc-s': 'screen and (max-width: 1150px)',
+  'pc': 'screen and (min-width: 1151px)'
 ) !default;
 
 // メディアクエリ用 mixin
 @mixin mq($breakpoint: pc) {
+  
   @media #{map-get($breakpoints, $breakpoint)} {
     @content;
   }

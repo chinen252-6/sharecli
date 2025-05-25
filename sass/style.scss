@@ -6,6 +6,7 @@ body{
     font-weight: 300;
     font-style: normal;
     color:color.$text-cl;
+    letter-spacing: 0.1em;
 
     
 }
@@ -25,6 +26,7 @@ body{
     font-weight: 500;
     font-style: normal;
     text-align: center;
+    letter-spacing: 0.1em;
 }
 
 .section__under-line{
@@ -45,6 +47,11 @@ body{
     margin-right:auto;
 }
 
+
+.small-pc{
+    display: none !important;
+}
+
 // header
 header{
     position:fixed;
@@ -59,19 +66,18 @@ header{
     margin-left:auto;
     margin-right:auto;
     max-width:1200px;
+    width:95%;
     z-index:999;
     display: flex;
     justify-content: space-between;
    
 
     &__title{
-        
+        margin-right: 20px;
         &__logo{
-            display: flex;
-            flex-direction: column;
             margin-top: 20px;
             margin-bottom: 10px;
-            gap:20px;
+            object-fit: contain;
             
         }
     }
@@ -86,7 +92,23 @@ header{
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            gap:30px; 
+            gap:25px; 
+        }
+    }
+    &__contact{
+        background-color: color.$footer-cl;
+        color:color.$white;
+        height: 140px;
+        display: flex; 
+        align-items: center; 
+        padding: 0 40px; 
+        margin-left: -20px;
+        
+        &__link{
+            text-decoration: none;
+            &:hover{
+                color:color.$text-hover !important;
+                }
         }
     }
 }
@@ -94,23 +116,18 @@ header{
 .nav__list__item{
                
 
-                &__link{
-                    text-decoration: none;
-                    
-                    &:hover{
-                        color:color.$text-hover !important;
-                    }
-                }
-               
-            }
+    &__link{
+        text-decoration: none;
+        
+        &:hover{
+            color:color.$text-hover !important;
+        }
+    }
+    
+}
 
 .header-contact{
-    background-color: color.$footer-cl;
-    color:color.$white;
-    height: 145px;
-    display: flex; 
-    align-items: center; 
-    padding: 0 30px; 
+   
 
     &a{
         padding: 20px;
@@ -125,52 +142,29 @@ main{
 
 // fv
 .fv{
-    background-image: url('../img/fv-on.png');
-    background-size: cover;
-    height: 650px;
-    
 
     &__contents{
-        max-width: 1000px;
-        width:95%;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: "Noto Serif JP" ,sans-serif;
-        font-optical-sizing:  auto;
-        font-weight: 500;
-        font-style: normal;
-        padding-top: 81px;
-        
-        &__heading{
-            font-size: 63px;
-            padding-bottom: 78px;
-            
+       &__img{
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
         }
-
-        &__sub{
-            font-size: 25px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            span {
-                background-color: color.$white;
-
-            }
-            span + span {
-                margin-top: 0.5em;
-            }
-           
-        }
+       }
     }
 }
 
 // service
 #service{
     scroll-margin-top: 60px; 
+    margin-bottom: 100px;
 }
 .section__flex{
     display: flex;
-    gap: 55px;
+    gap: 40px;
+    img{
+        margin-left: 5%;
+    }
 }
 .section__contents__content__text{
     line-height:2;
@@ -193,6 +187,7 @@ main{
     font-optical-sizing:  auto;
     font-weight: 500;
     text-align: center;
+    letter-spacing: 0.16em;
 
 }
 
@@ -232,17 +227,18 @@ main{
             border-bottom: 2px solid;
             font-family: "Noto Serif JP" ,sans-serif;
             font-optical-sizing:  auto;
-            font-weight: 500;
+            font-weight: 400;
 
             
             &__number{
                 font-size: 80px;
                 color: color.$text-light;
+                font-weight: 400;
             }
             &__text{
                 font-size: 28px;
                 line-height: 1.6;
-            
+                font-weight: 600;
             }
         }
         &__text{
@@ -292,6 +288,7 @@ main{
     &__text{
         margin-top: 30px;
         line-height: 2;
+        text-align: center;
     }
 }
 
@@ -314,6 +311,7 @@ main{
 
 
 
+
 // plan
 #plan{
     scroll-margin-top: 60px; 
@@ -325,6 +323,12 @@ main{
         text-align: center;
 
     }
+    &__contents__text{
+    font-size: 13px;
+    line-height: 2;
+    margin-top: 30px;
+    
+}
 
 
     &__img-top{
@@ -394,6 +398,8 @@ main{
         padding-bottom: 20px;
         padding-left: 20px;
         border: none;
+        font-size: 16px;
+        letter-spacing: 0.1em;
         
         
         &::placeholder{
@@ -410,6 +416,9 @@ main{
         padding-top: 20px;
         padding-left: 20px;
         height:150px;
+        resize: none;
+        letter-spacing: 0.1em;
+        font-size: 16px;
     }
 }
 .form-group + .form-group{
@@ -473,9 +482,11 @@ main{
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: color.$footer-cl;
-    border-radius: 35px;
+    border-radius: 45px;
     border: none;
-    width:450px;
+    width:500px;
+    height: 70px;
+    letter-spacing: 0.1em;
 
     &:hover{
         cursor: pointer; 
@@ -497,6 +508,7 @@ main{
         margin-left:auto;
         margin-right:auto;
         max-width:1200px;
+        width:95%;
         display: flex;
         justify-content: space-between;
     }
@@ -506,6 +518,9 @@ main{
             font-size: 22px;
             line-height: 2;
             color:color.$white;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            
         }
     }
     &__nav{
@@ -513,6 +528,7 @@ main{
             display: flex;
             gap: 35px;
             color:color.$white;
+            letter-spacing: 0.1em;
         }
         &__item{
             &__link:hover{
@@ -534,3 +550,73 @@ main{
     }
     }
     
+
+
+// small-pc
+@include breakpoints.mq(pc-s) {
+    .pc{
+        display: none !important;
+    }
+    .small-pc{
+        display: block !important;
+    }
+
+
+    .header__title{
+        height: 110px;
+    }
+    .header__contact{
+        height: 110px;
+    }
+    .header__nav{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        &__list{
+            gap: 40px;
+        }
+    }
+
+    .section__contents__content__text{
+    line-height:2;
+    font-size: 15px;
+    }
+    .section__contents__content__text +
+    .section__contents__content__text{
+        margin-top: 20px;
+    }
+    .section__contents__img{
+        width:280px;
+    }
+
+}
+
+
+
+
+// tab
+@include breakpoints.mq(tab) {
+  
+    .section__contents__img{
+        width:250px;
+    }
+    .section__contents__content__text{
+        font-size: 14px;
+    }
+
+    .salon__text{
+        font-size: 35px;
+    }
+    .reason__example{
+        gap: 60px;
+    }
+    .example__card__title{
+        font-size: 23px;
+    }
+
+    .footer__nav__items{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+  }
