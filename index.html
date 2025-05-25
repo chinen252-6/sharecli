@@ -37,13 +37,12 @@
             <div class="header__title">
                 <a href="index.html">
                 <div class="header__title__logo">
-                    <img src="./img/logo__top.svg" alt="シェアクリロゴ" class="header__title_logo__img">
-                    <img src="./img/logo__under.svg" alt="ロゴテキスト" class="header__title_logo__un">
+                    <img src="./img/header-logo.svg" alt="シェアクリのロゴ" class="header__title_logo__un">
                 </div>
                 </a>
             </div>
             
-            <nav class="header__nav">
+            <nav class="header__nav pc">
                 <ul class="header__nav__list">
                     <li class="nav__list__item">
                         <a href="#service" class="nav__list__item__link">サービス</a>        
@@ -60,12 +59,36 @@
                     <li class="nav__list__item">
                         <a href="#qa" class="nav__list__item__link">よくある質問</a>        
                     </li>
-                    <li class="nav__list__item header-contact">
-                        <a href="#contact-form" class="nav__list__item__link contact-link">お問い合わせ</a>        
-                    </li>
+                    
                 </ul>
             </nav>
+            <div class="header__contact">
+                
+                <a href="#contact-form" class="header__contact__link contact-link">お問い合わせ</a>        
+                
+            </div>
         </div>
+
+        <nav class="header__nav small-pc">
+            <ul class="header__nav__list">
+                <li class="nav__list__item">
+                    <a href="#service" class="nav__list__item__link">サービス</a>        
+                </li>
+                <li class="nav__list__item">
+                    <a href="#features" class="nav__list__item__link">特徴</a>        
+                </li>
+                <li class="nav__list__item">
+                    <a href="#flow" class="nav__list__item__link">スタートまでの流れ</a>        
+                </li>
+                <li class="nav__list__item">
+                    <a href="#plan" class="nav__list__item__link">料金・プラン</a>        
+                </li>
+                <li class="nav__list__item">
+                    <a href="#qa" class="nav__list__item__link">よくある質問</a>        
+                </li>
+                
+            </ul>
+        </nav>
     </header>
 
     
@@ -73,18 +96,16 @@
         <div class="fv">
             
             <div class="fv__contents">
-                <h1 class="fv__contents__heading">
-                        急拡大中の<br>
-                        オンラインクリニック<br>
-                        <span class="fv__contents__heading light">加盟店舗</span>
-                        募集
-                </h1>
-                <p class="fv__contents__sub">
-                <span>店舗売り上げを無理なく拡大し、</span>
-                <span>既存顧客を活かして</span>
-                <span>低リスクで始められます</span>
+                <div class="fv__contents__img">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="img/fv_all.png">
+                        <source media="(min-width: 769px)" srcset="img/fv_all.png">
+                        <img src="img/fv_all.png" alt="代替テキスト">
+                    </picture>
+                </div>
+                <div class="fv__contents__text">
 
-                </p>    
+                </div>
                 
             </div>
         </div>
@@ -96,7 +117,7 @@
                 </h2>
                 <img src="img/title__line.svg" alt="主題の下線" class="section__under-line">
             
-                <div class="section__contents section__contents-narrow section__flex">
+                <div class="section__contents section__contents-width section__flex">
                     <img src="img/logo__midle.svg" alt="シェアクリロゴ" class="section__contents__img">
                     <div class="section__contents__content">
                         <p class="section__contents__content__text">
@@ -109,9 +130,9 @@
                                 医師の適切な診察のもと美容内服を提案・処方できる仕組みを提供</span>しています。
                         </p>
                         <p class="section__contents__content__text">
-                            最新の美容知識をもとに、ニーズに合わせたパーソナルな提案を行うことで、<br>
-                            お客様の美容と健康をより高いレベルでサポートすることが可能になります。<br>
-                            経験豊富な医師・カウンセラーによる安心のフォロー体制も整えており、<br>
+                            最新の美容知識をもとに、ニーズに合わせたパーソナルな提案を行うことで、<br class="pc">
+                            お客様の美容と健康をより高いレベルでサポートすることが可能になります。<br class="pc"> 
+                            経験豊富な医師・カウンセラーによる安心のフォロー体制も整えており、<br class="pc">
                             サロン様・お客様ともに安心してご利用頂ける仕組みです。
                         </p>
                     </div>
@@ -273,6 +294,7 @@
                 <img src="img/title__line.svg" alt="主題の下線" class="section__under-line">
                 <div class="section__contents section__contents-flow">
                     <img src="img/arrow.svg" alt="サービス展開までの流れ" class="flow__img">
+                    
                 </div>
             </div>
         </section>
@@ -290,6 +312,11 @@
                     </p>
                     <img src="img/plan-img.svg" alt="プラン共通の料金：加盟金（80万円）、月額サービス利用費（2万円）" class="plan__img-top">
                     <img src="img/plan-table.svg" alt="プラン表" class="plan__img-bottom">
+                    <p class="plan__contents__text">
+                        ※１：初期費用はプランごとに提供サービスが異なっております。店舗の状況をヒアリングさせていただき最適なプランを提案させていただきます。<br>
+                        ※２：利益保証とは、加盟後、定められた条件を満たして取り組んでいただいたにも関わらず、万が一利益が出なかった場合には、
+                        お支払いいただいた費用の全額を保証いたします。リスクを抑えて安心してスタートできる制度です。
+                    </p>
                 </div>
             </div>
         </section>
