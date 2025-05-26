@@ -6,7 +6,7 @@ body{
     font-weight: 300;
     font-style: normal;
     color:color.$text-cl;
-    letter-spacing: 0.1em;
+    letter-spacing: normal;
 
     
 }
@@ -26,7 +26,7 @@ body{
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    letter-spacing: 0.1em;
+    letter-spacing: normal;
 }
 
 .section__under-line{
@@ -194,7 +194,7 @@ main{
     font-optical-sizing:  auto;
     font-weight: 300;
     text-align: center;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.02em;
     line-height: 1.7;
 
 }
@@ -227,7 +227,7 @@ main{
 .reason{
     &__card{
         &__title{
-            padding-bottom: 30px;
+            padding-bottom: 10px;
             margin-bottom: 36px;
             display: flex;
             align-items: center;
@@ -236,27 +236,27 @@ main{
             font-family: "Noto Serif JP" ,sans-serif;
             font-optical-sizing:  auto;
             
+            
 
             
             &__number{
                 font-size: 80px;
                 color: color.$text-light;
                 font-weight: 400;
-                letter-spacing: 0.04em;
+                letter-spacing: normal;
 
 
             }
             &__text{
                 font-size: 28px;
-                line-height: 1.7
-                ;
+                line-height: 1.8;
                 font-weight: 500;
-                letter-spacing: 0.1em;
+                letter-spacing: normal;
             }
         }
         &__text{
             line-height: 2;
-            letter-spacing: 0.04em;
+            
             
         }
     }
@@ -311,7 +311,6 @@ main{
         margin-top: 30px;
         line-height: 2;
         text-align: center;
-        letter-spacing: 0.075em;
     }
 }
 
@@ -350,7 +349,6 @@ main{
     font-size: 13px;
     line-height: 2;
     margin-top: 30px;
-    letter-spacing: 0.075em;
     
 }
 
@@ -622,7 +620,12 @@ main{
     .section__contents__img{
         width:280px;
     }
-
+    .reason__card__title__number{
+        font-size: 75px;
+    }
+    .reason__card__title__text{
+        font-size: 26px;
+    }
 }
 
 
@@ -630,7 +633,9 @@ main{
 
 // tab
 @include breakpoints.mq(tab) {
-  
+    .tab{
+        display: none;
+    }
     .section__contents__img{
         width:250px;
     }
@@ -653,5 +658,11 @@ main{
         gap: 20px;
     }
 
+    .reason__card__title__number{
+        font-size: 70px;
+    }
+    .reason__card__title__text{
+        font-size: 24px;
+    }
 
   }
