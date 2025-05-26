@@ -168,6 +168,11 @@ main {
 
 .section__contents__content__text {
   line-height: 2;
+  letter-spacing: 0.075;
+}
+
+.section__contents__content__text span {
+  font-weight: 600;
 }
 
 .section__contents__content__text + .section__contents__content__text {
@@ -175,7 +180,7 @@ main {
 }
 
 .salon {
-  background-color: rgba(244, 251, 252, 0.6);
+  background-color: rgb(244, 251, 252);
   padding-top: 100px;
   padding-bottom: 100px;
   width: 100%;
@@ -185,9 +190,10 @@ main {
   font-size: 40px;
   font-family: "Noto Serif JP", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
   letter-spacing: 0.16em;
+  line-height: 1.7;
 }
 
 #features {
@@ -201,7 +207,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 90px;
+  gap: 130px;
   padding-bottom: 39px;
 }
 .features__text {
@@ -226,20 +232,22 @@ main {
   border-bottom: 2px solid;
   font-family: "Noto Serif JP", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
 }
 .reason__card__title__number {
   font-size: 80px;
   color: #02acbb;
   font-weight: 400;
+  letter-spacing: 0.04em;
 }
 .reason__card__title__text {
   font-size: 28px;
-  line-height: 1.6;
-  font-weight: 600;
+  line-height: 1.7;
+  font-weight: 500;
+  letter-spacing: 0.1em;
 }
 .reason__card__text {
   line-height: 2;
+  letter-spacing: 0.04em;
 }
 .reason__groups {
   margin-top: 108px;
@@ -259,8 +267,17 @@ main {
   color: #ffffff;
   text-align: center;
   background-color: #555555;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+  height: 47px;
 }
 .reason__example {
   margin-top: 44px;
@@ -270,6 +287,9 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .example__card__title {
@@ -284,6 +304,7 @@ main {
   margin-top: 30px;
   line-height: 2;
   text-align: center;
+  letter-spacing: 0.075em;
 }
 
 #flow {
@@ -298,7 +319,7 @@ main {
 }
 
 .flow {
-  background-color: rgba(244, 251, 252, 0.6);
+  background-color: rgb(244, 251, 252);
   margin-top: 100px;
 }
 
@@ -314,6 +335,7 @@ main {
   font-size: 13px;
   line-height: 2;
   margin-top: 30px;
+  letter-spacing: 0.075em;
 }
 .plan__img-top {
   margin-bottom: 50px;
@@ -326,7 +348,7 @@ main {
 .qa {
   margin-top: 100px;
   padding-bottom: 100px;
-  background-color: rgba(244, 251, 252, 0.6);
+  background-color: rgb(244, 251, 252);
 }
 .qa__question {
   background-color: #ffffff;
@@ -345,7 +367,7 @@ main {
   padding-bottom: 20px;
 }
 .qa__question__q {
-  color: #02acbb;
+  color: rgb(46, 130, 137);
   padding-right: 10px;
 }
 .qa__answer {
@@ -372,6 +394,9 @@ main {
 .form-group {
   display: grid;
   grid-template-columns: 3fr 7fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .form-group input {
   background-color: #f0f0f0;
@@ -383,19 +408,19 @@ main {
   letter-spacing: 0.1em;
 }
 .form-group input::-webkit-input-placeholder {
-  color: #b0b0b0;
+  color: rgb(176, 176, 176);
 }
 .form-group input::-moz-placeholder {
-  color: #b0b0b0;
+  color: rgb(176, 176, 176);
 }
 .form-group input:-ms-input-placeholder {
-  color: #b0b0b0;
+  color: rgb(176, 176, 176);
 }
 .form-group input::-ms-input-placeholder {
-  color: #b0b0b0;
+  color: rgb(176, 176, 176);
 }
 .form-group input::placeholder {
-  color: #b0b0b0;
+  color: rgb(176, 176, 176);
 }
 .form-group label {
   padding-top: 20px;
@@ -410,6 +435,21 @@ main {
   resize: none;
   letter-spacing: 0.1em;
   font-size: 16px;
+}
+.form-group textarea::-webkit-input-placeholder {
+  color: rgb(176, 176, 176);
+}
+.form-group textarea::-moz-placeholder {
+  color: rgb(176, 176, 176);
+}
+.form-group textarea:-ms-input-placeholder {
+  color: rgb(176, 176, 176);
+}
+.form-group textarea::-ms-input-placeholder {
+  color: rgb(176, 176, 176);
+}
+.form-group textarea::placeholder {
+  color: rgb(176, 176, 176);
 }
 
 .form-group + .form-group {
@@ -426,11 +466,6 @@ main {
 .form-group-contact {
   border-bottom: none !important;
 }
-.form-group-contact label {
-  height: 150px;
-  line-height: 150px;
-}
-
 .checkbox-group {
   display: grid;
 }
@@ -472,19 +507,31 @@ main {
 }
 
 .form-submit {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .form-submit button {
   color: #ffffff;
   font-size: 20px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: #02acbb;
+  background-color: rgb(46, 130, 137);
   border-radius: 45px;
   border: none;
   width: 500px;
   height: 70px;
   letter-spacing: 0.1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .form-submit button:hover {
   cursor: pointer;
@@ -492,7 +539,7 @@ main {
 }
 
 .footer {
-  background-color: #02acbb;
+  background-color: rgb(46, 130, 137);
 }
 .footer__contents {
   padding-top: 50px;
@@ -514,7 +561,7 @@ main {
   font-size: 22px;
   line-height: 2;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.1em;
 }
 .footer__nav__items {
@@ -524,13 +571,14 @@ main {
   gap: 35px;
   color: #ffffff;
   letter-spacing: 0.1em;
+  font-weight: 300;
 }
 .footer__nav__item__link:hover {
   color: #be9d72;
 }
 
 .footer__copy {
-  background-color: #60a8ae !important;
+  background-color: rgb(96, 168, 174) !important;
   width: 100%;
   color: #ffffff;
   text-align: center;
@@ -561,6 +609,9 @@ main {
   .header__nav__list {
     gap: 40px;
   }
+  main {
+    margin-top: 158px;
+  }
   .section__contents__content__text {
     line-height: 2;
     font-size: 15px;
@@ -583,10 +634,10 @@ main {
     font-size: 35px;
   }
   .reason__example {
-    gap: 60px;
+    gap: 50px;
   }
   .example__card__title {
-    font-size: 23px;
+    font-size: 22px;
   }
   .footer__nav__items {
     -webkit-box-orient: vertical;
