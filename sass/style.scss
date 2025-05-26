@@ -82,6 +82,7 @@ header{
         }
     }
 
+
     &__nav{
         font-size: 16px;
         display: flex;
@@ -96,7 +97,7 @@ header{
         }
     }
     &__contact{
-        background-color: color.$footer-cl;
+        background-color:#02acbb;
         color:color.$white;
         height: 140px;
         display: flex; 
@@ -168,6 +169,10 @@ main{
 }
 .section__contents__content__text{
     line-height:2;
+    letter-spacing: 0.075;
+}
+.section__contents__content__text span{
+    font-weight: 600;
 }
 .section__contents__content__text +
 .section__contents__content__text{
@@ -180,14 +185,17 @@ main{
     padding-top: 100px;
     padding-bottom: 100px;
     width: 100%;
+    
+    
 }
 .salon__text{
     font-size: 40px;
     font-family: "Noto Serif JP" ,sans-serif;
     font-optical-sizing:  auto;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 0.16em;
+    line-height: 1.7;
 
 }
 
@@ -201,7 +209,7 @@ main{
     &__lists{
         display: flex;
         justify-content: center;
-        gap: 90px;
+        gap: 130px;
         padding-bottom: 39px;
     }
 
@@ -227,22 +235,29 @@ main{
             border-bottom: 2px solid;
             font-family: "Noto Serif JP" ,sans-serif;
             font-optical-sizing:  auto;
-            font-weight: 400;
+            
 
             
             &__number{
                 font-size: 80px;
                 color: color.$text-light;
                 font-weight: 400;
+                letter-spacing: 0.04em;
+
+
             }
             &__text{
                 font-size: 28px;
-                line-height: 1.6;
-                font-weight: 600;
+                line-height: 1.7
+                ;
+                font-weight: 500;
+                letter-spacing: 0.1em;
             }
         }
         &__text{
             line-height: 2;
+            letter-spacing: 0.04em;
+            
         }
     }
 
@@ -261,8 +276,12 @@ main{
             color:color.$white;
             text-align: center;
             background-color: color.$text-cl;
-            padding-top: 14px;
-            padding-bottom: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            height: 47px;
+            
         }
     }
     &__example{
@@ -271,6 +290,9 @@ main{
         grid-auto-flow: column;
         gap: 110px;
         justify-content: space-between;
+        width:95%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
@@ -289,6 +311,7 @@ main{
         margin-top: 30px;
         line-height: 2;
         text-align: center;
+        letter-spacing: 0.075em;
     }
 }
 
@@ -327,6 +350,7 @@ main{
     font-size: 13px;
     line-height: 2;
     margin-top: 30px;
+    letter-spacing: 0.075em;
     
 }
 
@@ -391,6 +415,7 @@ main{
 .form-group{
     display: grid;
     grid-template-columns: 3fr 7fr;
+    align-items: center;
 
     input{
         background-color:#f0f0f0;
@@ -403,7 +428,7 @@ main{
         
         
         &::placeholder{
-            color: #b0b0b0;
+            color: rgba(176, 176, 176, 1.15);
         }
     }
     label{
@@ -419,6 +444,9 @@ main{
         resize: none;
         letter-spacing: 0.1em;
         font-size: 16px;
+        &::placeholder{
+            color: rgba(176, 176, 176, 1.15);
+        }
     }
 }
 .form-group + .form-group{
@@ -433,8 +461,7 @@ main{
 .form-group-contact{
     border-bottom: none !important;
     label{
-        height:150px;
-        line-height: 150px;
+       
     }
 }
 .checkbox-group{
@@ -475,18 +502,21 @@ main{
     }
 }
 .form-submit{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    
     button{
     color:color.$white;
     font-size: 20px;
-    padding-top: 25px;
-    padding-bottom: 25px;
     background-color: color.$footer-cl;
     border-radius: 45px;
     border: none;
     width:500px;
     height: 70px;
     letter-spacing: 0.1em;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 
     &:hover{
         cursor: pointer; 
@@ -518,8 +548,9 @@ main{
             font-size: 22px;
             line-height: 2;
             color:color.$white;
-            font-weight: 600;
+            font-weight: 500;
             letter-spacing: 0.1em;
+
             
         }
     }
@@ -529,6 +560,7 @@ main{
             gap: 35px;
             color:color.$white;
             letter-spacing: 0.1em;
+            font-weight: 300;
         }
         &__item{
             &__link:hover{
@@ -575,6 +607,9 @@ main{
             gap: 40px;
         }
     }
+    main{
+        margin-top: 158px;
+    }
 
     .section__contents__content__text{
     line-height:2;
@@ -607,10 +642,10 @@ main{
         font-size: 35px;
     }
     .reason__example{
-        gap: 60px;
+        gap: 50px;
     }
     .example__card__title{
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .footer__nav__items{
