@@ -20,7 +20,6 @@ body {
   font-weight: 500;
   font-style: normal;
   text-align: center;
-  letter-spacing: normal;
 }
 
 .section__under-line {
@@ -168,7 +167,6 @@ main {
 
 .section__contents__content__text {
   line-height: 2;
-  letter-spacing: 0.075;
 }
 
 .section__contents__content__text span {
@@ -237,13 +235,11 @@ main {
   font-size: 80px;
   color: #02acbb;
   font-weight: 400;
-  letter-spacing: normal;
 }
 .reason__card__title__text {
   font-size: 28px;
   line-height: 1.8;
   font-weight: 500;
-  letter-spacing: normal;
 }
 .reason__card__text {
   line-height: 2;
