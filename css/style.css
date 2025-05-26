@@ -4,7 +4,7 @@ body {
   font-weight: 300;
   font-style: normal;
   color: #555555;
-  letter-spacing: 0.1em;
+  letter-spacing: normal;
 }
 
 .light {
@@ -20,7 +20,7 @@ body {
   font-weight: 500;
   font-style: normal;
   text-align: center;
-  letter-spacing: 0.1em;
+  letter-spacing: normal;
 }
 
 .section__under-line {
@@ -192,7 +192,7 @@ main {
   font-optical-sizing: auto;
   font-weight: 300;
   text-align: center;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.02em;
   line-height: 1.7;
 }
 
@@ -220,7 +220,7 @@ main {
 }
 
 .reason__card__title {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   margin-bottom: 36px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -237,17 +237,16 @@ main {
   font-size: 80px;
   color: #02acbb;
   font-weight: 400;
-  letter-spacing: 0.04em;
+  letter-spacing: normal;
 }
 .reason__card__title__text {
   font-size: 28px;
-  line-height: 1.7;
+  line-height: 1.8;
   font-weight: 500;
-  letter-spacing: 0.1em;
+  letter-spacing: normal;
 }
 .reason__card__text {
   line-height: 2;
-  letter-spacing: 0.04em;
 }
 .reason__groups {
   margin-top: 108px;
@@ -304,7 +303,6 @@ main {
   margin-top: 30px;
   line-height: 2;
   text-align: center;
-  letter-spacing: 0.075em;
 }
 
 #flow {
@@ -335,7 +333,6 @@ main {
   font-size: 13px;
   line-height: 2;
   margin-top: 30px;
-  letter-spacing: 0.075em;
 }
 .plan__img-top {
   margin-bottom: 50px;
@@ -622,8 +619,17 @@ main {
   .section__contents__img {
     width: 280px;
   }
+  .reason__card__title__number {
+    font-size: 75px;
+  }
+  .reason__card__title__text {
+    font-size: 26px;
+  }
 }
 @media screen and (max-width: 989px) {
+  .tab {
+    display: none;
+  }
   .section__contents__img {
     width: 250px;
   }
@@ -645,5 +651,11 @@ main {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 20px;
+  }
+  .reason__card__title__number {
+    font-size: 70px;
+  }
+  .reason__card__title__text {
+    font-size: 24px;
   }
 }
