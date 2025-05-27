@@ -1,11 +1,11 @@
-<svg id="共通料金" xmlns="http://www.w3.org/2000/svg" width="1001" height="102" viewBox="0 0 1001 102">
+<svg id="共通料金" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1001" height="102" viewBox="0 0 1001 102">
   <defs>
     <style>
       .cls-1, .cls-3 {
         fill: #fff;
       }
 
-      .cls-1, .cls-8 {
+      .cls-1, .cls-5 {
         stroke: #02acbb;
       }
 
@@ -13,7 +13,7 @@
         stroke-width: 2px;
       }
 
-      .cls-2, .cls-5 {
+      .cls-2 {
         fill: #02acbb;
       }
 
@@ -21,29 +21,16 @@
         font-size: 20px;
       }
 
-      .cls-3, .cls-6, .cls-7 {
+      .cls-3, .cls-4 {
         font-family: HiraKakuProN-W6, "Hiragino Kaku Gothic ProN";
       }
 
       .cls-4 {
-        font-size: 40px;
-        font-family: Montserrat;
-      }
-
-      .cls-5 {
-        font-weight: 600;
-      }
-
-      .cls-6 {
-        font-size: 28px;
-      }
-
-      .cls-7 {
         font-size: 17px;
         fill: #555;
       }
 
-      .cls-8 {
+      .cls-5 {
         fill: #f0f0f0;
         stroke-width: 1px;
         fill-rule: evenodd;
@@ -53,9 +40,9 @@
   <rect id="長方形_2_のコピー_16" data-name="長方形 2 のコピー 16" class="cls-1" x="250" y="1" width="750" height="100"/>
   <rect id="長方形_2_のコピー_6" data-name="長方形 2 のコピー 6" class="cls-2" y="1" width="250" height="100"/>
   <text id="プラン共通の料金" class="cls-3" x="40.529" y="58.494">プラン共通の料金</text>
-  <text id="_80万円" data-name="80万円" class="cls-4" x="380.528" y="77.496"><tspan class="cls-5">80</tspan><tspan class="cls-6">万円</tspan></text>
-  <text id="_2万円" data-name="2万円" class="cls-4" x="770.528" y="77.496"><tspan class="cls-5">2</tspan><tspan class="cls-6">万円</tspan></text>
-  <text id="加盟金" class="cls-7" x="411.133" y="37.165">加盟金</text>
-  <text id="月額サービス利用費" class="cls-7" x="733.132" y="38.165">月額サービス利用費</text>
-  <path id="シェイプ_4" data-name="シェイプ 4" class="cls-8" d="M1086,5675v67" transform="translate(-460 -5657)"/>
+  <image id="_80万円" data-name="80万円" x="382" y="51" width="112" height="29" xlink:href="data:img/png;base64,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"/>
+  <image id="_2万円" data-name="2万円" x="770" y="51" width="84" height="29" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAdCAYAAAA0PEtlAAAEo0lEQVRogWJkwAGY1uwOYGBgcGBgYDBgYGCwR1P1kYGB4QIUL/gX4noBlzkjCjAwMAAAAAD//0IJUKY1uwUYGBgKoJifhMA4CNIz4gOWgYEBAAAA//+CByjTmt2glLiBgYFBnkyzQKkWFKgLqOe8IQYYGBgAAAAA//8CByjTmt0JDAwM86nkfMMRm1IZGBgAAAAA//9iYVqzW4GIwHzIwMDwAMpWIJCKQSkUlNpxAmgEgjBNwb8QV1AdgAKY1uxugNYN1AcMDB8AAAAA//9i+Rfi+oBpze5CBgaGfjQbQFm4AVrpfECWgEYCqJzNx+IqfVDxQSCVgvSjV3T0BLSxm4HhIAAAAP//YmKAxOQEBgYGR2gggsBGkKdB4uiBCVX/4F+IKyhAJ+IwGNRCGHmAgYEBAAAA//9iQQqkA9CU1wANLGJAA45USgiAig9Qy+AADoWg4gBWrICKG1IrOpA/QJgY0EiEG4hzKwMDAwAAAP//YkGWgaZGYgMTrJ5pzW5ilSPrAwUQzkBiWrMbVMbBHAnKDaCIownAZTaaGw4QpY6BgQEAAAD//2KilUNHJGBgYAAAAAD//6IoQKGxgw3AWgQjCzAwMAAAAAD//2Kh0Me4siKu8oYcACpWiGnmgJpqoJ4eqFUyMBHKwMAAAAAA//8iO0ChbUlszY+FVPAQsrn+UEwsALVYBgYwMDAAAAAA//8iK8tDUwy2zgCs7Uo2gLY0yAbYmnl0AwwMDAAAAAD//yI5hUJHoXDV0KC+PKWpE72XdRGU7fGoJ9RzwwvwFCeg4gNuB1HqGBgYAAAAAP//IilACfT5QVmdGgMjKA7/F+JKqBsLyhH1FNi3nwg18VCMHzAwMAAAAAD//yI6yxMRmNTqmyP3skCpc+gABgYGAAAAAP//IipA6RWY0CFE5OxLamsB1KsaOMDAwAAAAAD//yKY5QkEZiOVezHovTTQ+CwhgFyJkVx+/wtxxTlrQQxgWrMbFOmQVgkDAwMAAAD//8IboExrdk/A01dPpOZgMrR2Ry6nHoLGF4jQSlGrgKqAgYEBAAAA///CGaBMa3YvwFMQUzUwoQA9pZNj/sD20BgYGAAAAAD//8JahtI7MKFNEmT7QO1ZYhvoyJ2AgQ1QBgYGAAAAAP//wgjQAQhMUJZFLyuxjsNi0YvSBhzwAGVgYAAAAAD//0LJ8ngCE5RiEv6FuBJTSRANoAECMhN5hvUiCRUdemN7YAOUgYEBAAAA//8CByjUY6AKQB+HOpCH15M49nkQ25wODECbSKAIRLcTowkGKhJwVFAoaomsxGgHGBgYAAAAAP//gqVQAzyBSXXAtGY3qHkESoXoc/+gIgXbXNQCpjW7Qe1T2AILEEDvcoKmbWjpZpB999EmLEEAUYYzMDAAAAAA//8aqAFmUARiC0xc5TMs5YH0gDwAwuj9d5quB4COUYCmQkD2wtyAOtrGwHABAAAA//8akACF9qyQUxShyo5Q2QjqYFC1fMcB8BUpHxkYGBYAAAAA//+CZfkHeCaryAWEAgEUqKBAIGYJD6gJhcszF0gcsgPVF6CURg4ARTpud4S4fgAAAAD//wMAaSMrgU9W2ZAAAAAASUVORK5CYII="/>
+  <text id="加盟金" class="cls-4" x="411.133" y="37.165">加盟金</text>
+  <text id="月額サービス利用費" class="cls-4" x="733.132" y="38.165">月額サービス利用費</text>
+  <path id="シェイプ_4" data-name="シェイプ 4" class="cls-5" d="M1086,5675v67" transform="translate(-460 -5657)"/>
 </svg>

@@ -1,4 +1,4 @@
-<svg id="初期メニュー" xmlns="http://www.w3.org/2000/svg" width="1000" height="515" viewBox="0 0 1000 515">
+<svg id="初期メニュー" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="515" viewBox="0 0 1000 515">
   <defs>
     <style>
       .cls-1, .cls-5 {
@@ -9,11 +9,11 @@
         font-size: 17px;
       }
 
-      .cls-10, .cls-2, .cls-6 {
+      .cls-2, .cls-6 {
         fill: #555;
       }
 
-      .cls-11, .cls-13, .cls-2, .cls-6, .cls-8 {
+      .cls-10, .cls-2, .cls-6, .cls-8 {
         font-family: HiraKakuProN-W6, "Hiragino Kaku Gothic ProN";
       }
 
@@ -21,7 +21,7 @@
         font-size: 9px;
       }
 
-      .cls-13, .cls-4 {
+      .cls-10, .cls-4 {
         fill: #fff;
       }
 
@@ -39,28 +39,15 @@
         fill: #f4fbfc;
       }
 
-      .cls-13, .cls-8 {
+      .cls-10, .cls-8 {
         font-size: 20px;
       }
 
-      .cls-14, .cls-8 {
+      .cls-11, .cls-8 {
         fill: #02acbb;
       }
 
       .cls-9 {
-        font-size: 40px;
-        font-family: Montserrat;
-      }
-
-      .cls-10 {
-        font-weight: 600;
-      }
-
-      .cls-11 {
-        font-size: 28px;
-      }
-
-      .cls-12 {
         fill: #35cbd8;
       }
     </style>
@@ -190,17 +177,17 @@
   <g id="mini">
     <rect id="長方形_2_のコピー_3-29" data-name="長方形 2 のコピー 3" class="cls-7" x="279" width="230" height="45" rx="10" ry="10"/>
     <text id="ミニプラン" class="cls-8" x="343.528" y="30.496">ミニプラン</text>
-    <text id="_20万円" data-name="20万円" class="cls-9" x="334.529" y="97.493"><tspan class="cls-10">20</tspan><tspan class="cls-11">万円</tspan></text>
+    <image id="_20万円" data-name="20万円" x="334" y="71" width="111" height="29" xlink:href="data:img/png;base64,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"/>
   </g>
   <g id="standard">
-    <rect id="長方形_2_のコピー_3-30" data-name="長方形 2 のコピー 3" class="cls-12" x="525" width="230" height="45" rx="10" ry="10"/>
-    <text id="スタンダードプラン" class="cls-13" x="549.528" y="30.496">スタンダードプラン</text>
-    <text id="_70万円" data-name="70万円" class="cls-9" x="580.529" y="97.493"><tspan class="cls-10">70</tspan><tspan class="cls-11">万円</tspan></text>
+    <rect id="長方形_2_のコピー_3-30" data-name="長方形 2 のコピー 3" class="cls-9" x="525" width="230" height="45" rx="10" ry="10"/>
+    <text id="スタンダードプラン" class="cls-10" x="549.528" y="30.496">スタンダードプラン</text>
+    <image id="_70万円" data-name="70万円" x="581" y="71" width="110" height="29" xlink:href="data:img/png;base64,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"/>
   </g>
   <g id="pre">
-    <rect id="長方形_2_のコピー_3-31" data-name="長方形 2 のコピー 3" class="cls-14" x="770" width="230" height="45" rx="10" ry="10"/>
-    <text id="プレミアムプラン" class="cls-13" x="805.528" y="30.496">プレミアムプラン</text>
-    <text id="_110万円" data-name="110万円" class="cls-9" x="825.528" y="97.493"><tspan class="cls-10">110</tspan><tspan class="cls-11">万円</tspan></text>
+    <rect id="長方形_2_のコピー_3-31" data-name="長方形 2 のコピー 3" class="cls-11" x="770" width="230" height="45" rx="10" ry="10"/>
+    <text id="プレミアムプラン" class="cls-10" x="805.528" y="30.496">プレミアムプラン</text>
+    <image id="_110万円" data-name="110万円" x="825" y="71" width="125" height="29" xlink:href="data:img/png;base64,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"/>
   </g>
   <text id="初期費用_1" data-name="初期費用※1" class="cls-2" x="19.132" y="100.167">初期費用<tspan class="cls-3" dy="-5.4">※1</tspan></text>
 </svg>
