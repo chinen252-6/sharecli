@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $status = isset($_POST['status']) ? implode(", ", $_POST['status']) : '';
     $message = htmlspecialchars($_POST['message'], ENT_QUOTES, 'UTF-8');
 
-    $to = "satoukibi6@gmail.com";
+    $to = "support@sharecli.com";
     $subject = "お問い合わせフォームからの送信";
     $body = <<<EOD
 以下の内容が送信されました。
