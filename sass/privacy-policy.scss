@@ -28,6 +28,29 @@ ol {
     margin-left: auto;
 }
 
+.privacy-subtext-mt{
+    margin-top: 18px;
+}
+.privacy-subtext-none{
+    list-style: none;
+    line-height: 1.8;
+}
+.privacy-subtext-next{
+    width:min(80%,920px);
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 1.5;
+    
+}
+
+li > p.privacy-subtext-next:first-of-type {
+    padding-top: 10px;
+}
+
+
+li > p.privacy-subtext-next:last-of-type {
+    padding-bottom: 15px;
+}
 
 
 // pr-con
