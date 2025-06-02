@@ -1,10 +1,24 @@
+# =============================
+# 🔐 join.sharecli.co.jp 全体に Basic認証を適用
+# =============================
+AuthType Basic
+AuthName "Restricted Page"
+AuthUserFile /home/xs582234/sharecli.co.jp/htpasswd/join.sharecli.co.jp/.htpasswd
+Require valid-user
+
+# =============================
+# 🔄 クリーンURL設定（任意）
+# =============================
+<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
 
-# 「.html」が付いているリクエストを、スラッシュ付きにリダイレクト（例：law.html → /law/）
-RewriteCond %{THE_REQUEST} \s/+(.*)\.html[\s?] [NC]
-RewriteRule ^ %1/ [R=301,L]
+# .html付きURL → 拡張子なしにリダイレクト（例: /law.html → /law）
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
 
-# スラッシュ付きURLでも、対応する .html ファイルがあれば表示
+# 拡張子なしURL → 対応する .html に内部リライト（例: /law → law.html）
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+?)/?$ $1.html [L]
+</IfModule>
